@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    // 스프레드 연산자 ...
+    // 스프레드 연산자 (...) 를 사용하면 기존 배열 도는 개체의 전체 또는 일부를 다른 배열이나 개체에 빠르게 복사할 수 있다
+
+    const numbersOne = [1,2,3];
+    const numbersTwo = [4,5,6];
+    const numbersCombined = [...numbersOne, ...numbersTwo];
+    const numbersCombined2 = [numbersOne, numbersTwo];
+    document.write(numbersCombined);
+    document.write("<br>");
+    document.write(numbersCombined2);
+  </script>
+</body>
+</html>

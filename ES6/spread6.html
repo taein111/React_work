@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    //단순 변수 할당
+    var arr1 = ['철수', '영희'];
+    var arr2 = arr1;
+    var arr3 = [...arr1];
+    arr2.push('바둑이');
+    document.write(arr2); 
+    document.write("<br>");
+    //원본 배열도 변경된다.
+    document.write(arr1);
+    document.write("<br>");
+    document.write(arr3);
+    // 레퍼런스 복사 var arr2 = arr1;와  배열복사의[...]  차이점 
+  </script>
+</body>
+</html>

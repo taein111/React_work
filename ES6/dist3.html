@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    const vehicles = ['mustang', 'f-150', 'expedition'];
+    //자동차와 suv만 원하는 경우 트럭은 생략하고 쉼표는 유지
+    const [car,, suv] = vehicles;
+    //콘솔찍기
+    car;
+    suv;
+    const fruit = ['banana', 'tomato', 'apple'];
+    //구조화로 할 때는 변숙 선언되는 순서가 중요
+    const [yellow,, red] = fruit;
+    //콘솔로 찍어보기
+    yellow;
+    red;
+  </script>
+</body>
+</html>
